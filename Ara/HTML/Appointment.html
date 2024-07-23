@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appointment Scheduling</title>
+    <link href="/CSS/style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="#">Book Appointment</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container">We understand your time is valuable.
+        That’s why we’ve made it easy for you to book your appointments with us. 
+        <br><b> Please click on the Book an
+          appointment</b></div>
+      <section class="heroAppointment">
+       <!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2Rz9It_dAeEp1_rzXoYP5wb-f45M8KcKxTW8SQDTi4jawXPEvGtGPQuU9L0rmLtZPGvUfEsslJ?gv=true',
+      color: '#039BE5',
+      label: 'Book an appointment',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling --> 
+      </section>
+   
+    <div class="appointmentText"><p>Welcome to our online appointment system! <br>
+       
+       Whether you’re scheduling a beauty treatment, a consultation, or a follow-up visit, 
+       our user-friendly platform allows you to select the service, choose your preferred staff member, and pick a time that works best for you.
+       It’s simple, fast, and convenient. So why wait? Book your appointment now and experience our exceptional services tailored just for you.”
+    </p>
+    </div>
+    
+<section class="services">
+  <h2>Our Services</h2>
+  <ul>
+    <li>
+      <img src="/IMAGES/massage.webp" alt="Massage Services" />
+      <h3>Massage Services</h3>
+      <p>Offering a range of well-being services and treatments</p>
+    </li>
+    <li>
+      <img src="/IMAGES/makeup1.jpg" alt="Makeup Services" />
+      <h3>Makeup Services</h3>
+      <p>
+        Expert stylists creating stunning makeovers and glamorous looks
+      </p>
+    </li>
+    <li>
+      <img src="/IMAGES/pedicure.jpg" alt="Pedicure and Manicure" />
+      <h3>Manicure & Pedicure</h3>
+      <p>Treat your hands and feet with some manicure and pedicure</p>
+    </li>
+    <li>
+      <img src="/IMAGES/facial.webp" alt="Facial Treatment" />
+      <h3>Facial Treatment</h3>
+      <p>Treat your face with some facial treatment</p>
+    </li>
+    <!-- Add more services here -->
+  </ul>
+</section>
+</main>
+<footer>
+  <p>
+    <strong></strong>&copy; 2024 Ara Forson Beauty Clinic System<strong />
+  </p>
+  <p>Powered by Syntax Squad</p>
+</footer>
+    
+</body>
+</html>
